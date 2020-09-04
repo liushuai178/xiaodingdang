@@ -30,7 +30,7 @@ public class Reply implements Serializable {
     private Integer replyId;
 
     @ApiModelProperty(value = "评论人的id")
-    private Integer comment;
+    private Integer commentId;
 
     @ApiModelProperty(value = "回复内容")
     private String replyText;

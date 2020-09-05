@@ -27,26 +27,18 @@ public class Function implements Serializable {
     @TableId(value = "function_id", type = IdType.AUTO)
     private Integer functionId;
 
-    @ApiModelProperty(value = "收藏店铺id")
-    private Integer concernShopsId;
-
-    @ApiModelProperty(value = "收藏商品id")
-    private Integer concernGoodsId;
+    @ApiModelProperty(value = "关注用户id")
+    private Integer concernArtcleId;
 
     @ApiModelProperty(value = "粉丝id（用户id）")
     private Integer fansId;
 
-    @ApiModelProperty(value = "店铺足迹id")
-    private Integer trackShopsId;
+    @ApiModelProperty(value = "文章足迹id")
+    private Integer trackArtcleId;
 
-    @ApiModelProperty(value = "商品足迹id")
-    private Integer trackGoodsId;
+    @ApiModelProperty(value = "收藏文章id")
+    private Integer collectArtcleId;
 
-    @ApiModelProperty(value = "收藏店铺id")
-    private Integer collectShopsId;
-
-    @ApiModelProperty(value = "收藏商品id")
-    private Integer collectGoodsId;
 
 
 }

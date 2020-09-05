@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdd.dao.OrderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xld.pojo.Order">
+        <id column="order_id" property="orderId" />
+        <result column="goods_id" property="goodsId" />
+        <result column="user_id" property="userId" />
+        <result column="pay_status" property="payStatus" />
+        <result column="goods_status" property="goodsStatus" />
+        <result column="evaluate_status" property="evaluateStatus" />
+        <result column="refund_status" property="refundStatus" />
+        <result column="dissapper_status" property="dissapperStatus" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        order_id, goods_id, user_id, pay_status, goods_status, evaluate_status, refund_status, dissapper_status
+    </sql>
+
+</mapper>

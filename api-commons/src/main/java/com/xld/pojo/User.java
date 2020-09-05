@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.util.Date;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -38,7 +40,7 @@ public class User implements Serializable {
     private Integer sex;
 
     @ApiModelProperty(value = "生日")
-    private LocalDateTime birthday;
+    private Date birthday;
 
     @ApiModelProperty(value = "电话号码")
     private String tel;

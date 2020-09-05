@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-commons/api-commons.iml" filepath="$PROJECT_DIR$/api-commons/api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-order8888/cloud-order8888.iml" filepath="$PROJECT_DIR$/cloud-order8888/cloud-order8888.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-user9999/cloud-user9999.iml" filepath="$PROJECT_DIR$/cloud-user9999/cloud-user9999.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaodingdang.iml" filepath="$PROJECT_DIR$/xiaodingdang.iml" />
+    </modules>
+  </component>
+</project>

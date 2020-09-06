@@ -38,7 +38,4 @@ public class Function implements Serializable {
 
     @ApiModelProperty(value = "收藏文章id")
     private Integer collectArtcleId;
-
-
-
 }

@@ -1,0 +1,15 @@
+com\xld\pojo\User.class
+com\xld\pojo\Coupon.class
+com\xld\pojo\ShopCar.class
+com\xld\pojo\Function.class
+com\xld\pojo\Store.class
+com\xld\pojo\Comment.class
+com\xld\pojo\Favorite.class
+com\xld\pojo\CouponType.class
+com\xld\pojo\Order.class
+com\xld\pojo\Category.class
+com\xld\pojo\Goods.class
+com\xld\pojo\CouponStatus.class
+com\xld\pojo\CouponRule.class
+com\xld\pojo\Activity.class
+com\xld\pojo\Reply.class

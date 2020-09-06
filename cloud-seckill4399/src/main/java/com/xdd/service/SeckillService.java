@@ -1,5 +1,7 @@
 package com.xdd.service;
 
-public class SeckillService {
+import com.xld.pojo.Goods;
 
+public interface SeckillService {
+    Goods findById();
 }

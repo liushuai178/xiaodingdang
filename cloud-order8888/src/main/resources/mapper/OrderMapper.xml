@@ -9,6 +9,7 @@
         <result column="user_id" property="userId" />
         <result column="pay_status" property="payStatus" />
         <result column="goods_status" property="goodsStatus" />
+        <result column="regoods_status" property="regoodsStatus" />
         <result column="evaluate_status" property="evaluateStatus" />
         <result column="refund_status" property="refundStatus" />
         <result column="dissapper_status" property="dissapperStatus" />

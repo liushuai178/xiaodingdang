@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
+import java.util.Date;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -48,6 +50,18 @@ public class Goods implements Serializable {
 
     @ApiModelProperty(value = "所属店铺的id")
     private Integer storeId;
+
+    @ApiModelProperty(value = "商品活动开始时间")
+    private Date goodsActivityTime;
+
+    @ApiModelProperty(value = "商品参加的活动类型")
+    private Activity activityName;
+
+    @ApiModelProperty(value = "商品所属的分类")
+    private Category categoryName;
+
+    @ApiModelProperty(value = "商品所属店铺")
+    private Store storeName;
 
 
 }

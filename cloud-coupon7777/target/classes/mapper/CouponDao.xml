@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaodingdang.dao.CouponDao">
+    <resultMap id="CouponMap" type="com.xld.pojo.Coupon">
+        <id column="coupon_id" property="couponId"></id>
+        <result column="coupon_type" property="couponType"></result>
+        <result column="amount" property="amount"></result>
+        <result column="coupon_status" property="couponStatus"></result>
+        <result column="rule" property="rule"></result>
+        <result column="store_id" property="storeId"></result>
+        <result column="user_id" property="userId"></result>
+        <association property="couponTypeName" javaType="com.xld.pojo.CouponType">
+            <id column="coupon_type_id" property="couponTypeId"></id>
+            <result column="coupon_type_name" property="couponTypeName"></result>
+        </association>
+        <association property="couponStatusName" javaType="com.xld.pojo.CouponStatus">
+            <id column="coupon_status_id" property="couponStatusId"></id>
+            <id column="coupon_status_name" property="couponStatusName"></id>
+        </association>
+        <association property="couponRuleName" javaType="com.xld.pojo.CouponRule">
+            <id column="coupon_rule_id" property="couponRuleId"></id>
+            <id column="coupon_rule_name" property="couponRuleName"></id>
+        </association>
+        <association property="storeName" javaType="com.xld.pojo.Store">
+            <id column="store_id" property="storeId"></id>
+            <id column="store_name" property="storeName"></id>
+        </association>
+
+
+
+<!--        <collection property="couponTypeList" ofType="com.xld.pojo.CouponType">-->
+<!--            <id column="coupon_type_id" property="couponTypeId"></id>-->
+<!--            <result column="coupon_type_name" property="couponTypeName"></result>-->
+<!--        </collection>-->
+<!--        <collection property="couponStatusList" ofType="com.xld.pojo.CouponStatus">-->
+<!--            <id column="coupon_status_id" property="couponStatusId"></id>-->
+<!--            <id column="coupon_status_name" property="couponStatusName"></id>-->
+<!--        </collection>-->
+<!--        <collection property="couponRuleList" ofType="com.xld.pojo.CouponRule">-->
+<!--            <id column="coupon_rule_id" property="couponRuleId"></id>-->
+<!--            <id column="coupon_rule_name" property="couponRuleName"></id>-->
+<!--        </collection>-->
+<!--        <collection property="StoreList" ofType="com.xld.pojo.Store">-->
+<!--            <id column="store_id" property="storeId"></id>-->
+<!--            <id column="store_name" property="storeName"></id>-->
+<!--        </collection>-->
+
+    </resultMap>
+<select id="findAll" resultMap="CouponMap">
+    select ct.coupon_type_name ,c.amount,cs.coupon_status_name,cr.coupon_rule_name,store.store_name from coupon c
+    inner join coupon_type ct
+    on ct.coupon_type_id=c.coupon_id
+    inner join coupon_status cs
+    on cs.coupon_status_id=c.coupon_status
+    inner join coupon_rule cr
+    on cr.coupon_rule_id=c.rule
+    inner join store
+    on store.store_id=c.store_id
+</select>
+    <select id="findByUserId" resultMap="CouponMap">
+    select ct.coupon_type_name ,c.amount,cs.coupon_status_name,cr.coupon_rule_name,store.store_name from coupon c
+    inner join coupon_type ct
+    on ct.coupon_type_id=c.coupon_id
+    inner join coupon_status cs
+    on cs.coupon_status_id=c.coupon_status
+    inner join coupon_rule cr
+    on cr.coupon_rule_id=c.rule
+    inner join store
+    on store.store_id=c.store_id
+    where c.user_id=#{userId}
+</select>
+
+    <insert id="addCoupon" >
+        insert into coupon(coupon_type,amount,coupon_status,rule,store_id,user_id)
+        values(#{couponType},#{amount},#{couponStatus},#{rule},#{storeId},#{userId})
+    </insert>
+<update id="updateCoupon">
+    update coupon set coupon_type=#{couponType},amount=#{amount},coupon_status=#{couponStatus},rule=#{rule},store_id=#{storeId},user_id=#{userId} where coupon_id=#{couponId}
+</update>
+<delete id="deleteCoupon">
+    delete from coupon where coupon_id=#{couponId}
+</delete>
+</mapper>

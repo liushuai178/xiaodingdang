@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-user9999" />
+        <module name="cloud-coupon7777" />
         <module name="api-commons" />
         <module name="cloud-order8888" />
-        <module name="cloud-user9999" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-commons" target="1.8" />
+      <module name="cloud-coupon7777" target="1.8" />
       <module name="cloud-order8888" target="1.8" />
       <module name="cloud-user9999" target="1.8" />
       <module name="xiaodingdang" target="1.8" />

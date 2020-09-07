@@ -28,7 +28,7 @@ public class CouponStatus implements Serializable {
     private Integer couponStatusId;
 
     @ApiModelProperty(value = "优惠券状态名称")
-    private String couponStausName;
+    private String couponStatusName;
 
 
 }

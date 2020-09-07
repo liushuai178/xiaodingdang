@@ -3,8 +3,6 @@ package com.xld.pojo;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
-import java.util.List;
-
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -32,9 +30,6 @@ public class Coupon implements Serializable {
     @ApiModelProperty(value = "优惠券分类，1代表店铺优惠券，2代表平台优惠券")
     private String couponType;
 
-    @ApiModelProperty(value = "优惠券金额")
-    private Double amount;
-
     @ApiModelProperty(value = "优惠券状态，1未使用，2已使用，3已失效")
     private Integer couponStatus;
 
@@ -43,20 +38,6 @@ public class Coupon implements Serializable {
 
     @ApiModelProperty(value = "此处id为0代表全平台通用，不为0代表商家店铺的id，在此商家使用")
     private Integer storeId;
-
-    @ApiModelProperty(value = "用户id")
-    private Integer userId;
-
-
-    private CouponType couponTypeName;
-    private CouponStatus couponStatusName;
-    private CouponRule couponRuleName;
-    private Store storeName;
-
-//    private List<CouponType> couponTypeList;
-//    private List<CouponStatus> couponStatusList;
-//    private List<CouponRule> couponRuleList;
-//    private List<Store> StoreList;
 
 
 }

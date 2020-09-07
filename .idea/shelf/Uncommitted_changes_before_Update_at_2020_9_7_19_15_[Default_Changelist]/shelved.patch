@@ -1,0 +1,2033 @@
+Index: .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml
+===================================================================
+--- .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.mybatis:mybatis-spring:2.0.3">
+-    <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml
+===================================================================
+--- .idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.mybatis:mybatis:3.5.3">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.3/mybatis-3.5.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml
+===================================================================
+--- .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.1.1">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: cloud-bookreview8666/cloud-bookreview8666.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- cloud-bookreview8666/cloud-bookreview8666.iml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ cloud-bookreview8666/cloud-bookreview8666.iml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,122 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+-  <component name="FacetManager">
+-    <facet type="Spring" name="Spring">
+-      <configuration />
+-    </facet>
+-    <facet type="web" name="Web">
+-      <configuration>
+-        <webroots />
+-        <sourceRoots>
+-          <root url="file://$MODULE_DIR$/src/main/java" />
+-          <root url="file://$MODULE_DIR$/src/main/resources" />
+-        </sourceRoots>
+-      </configuration>
+-    </facet>
+-  </component>
+-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+-    <output url="file://$MODULE_DIR$/target/classes" />
+-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+-      <excludeFolder url="file://$MODULE_DIR$/target" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="module" module-name="api-commons" />
+-    <orderEntry type="library" name="Maven: io.springfox:springfox-swagger2:2.9.2" level="project" />
+-    <orderEntry type="library" name="Maven: io.swagger:swagger-models:1.5.20" level="project" />
+-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0" level="project" />
+-    <orderEntry type="library" name="Maven: io.springfox:springfox-spi:2.9.2" level="project" />
+-    <orderEntry type="library" name="Maven: io.springfox:springfox-core:2.9.2" level="project" />
+-    <orderEntry type="library" name="Maven: io.springfox:springfox-schema:2.9.2" level="project" />
+-    <orderEntry type="library" name="Maven: io.springfox:springfox-swagger-common:2.9.2" level="project" />
+-    <orderEntry type="library" name="Maven: io.springfox:springfox-spring-web:2.9.2" level="project" />
+-    <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
+-    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.5.1" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.2.0.Final" level="project" />
+-    <orderEntry type="library" name="Maven: io.springfox:springfox-swagger-ui:2.9.2" level="project" />
+-    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-extension:3.3.2" level="project" />
+-    <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:2.0.4" level="project" />
+-    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-annotation:3.3.2" level="project" />
+-    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.4" level="project" />
+-    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-core:3.3.2" level="project" />
+-    <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:3.1" level="project" />
+-    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.1.0" level="project" />
+-    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.18" level="project" />
+-    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
+-    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-boot-starter:3.3.2" level="project" />
+-    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus:3.3.2" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:3.4.5" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: com.alibaba:druid-spring-boot-starter:1.1.10" level="project" />
+-    <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.16" level="project" />
+-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
+-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
+-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.13.2" level="project" />
+-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.13.2" level="project" />
+-    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" level="project" />
+-    <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
+-    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.26" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.0" level="project" />
+-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.0" level="project" />
+-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.0" level="project" />
+-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.0" level="project" />
+-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.0" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35" level="project" />
+-    <orderEntry type="library" name="Maven: org.glassfish:jakarta.el:3.0.3" level="project" />
+-    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.35" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: io.swagger:swagger-annotations:1.5.20" level="project" />
+-    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.18" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.3.0.RELEASE" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:2.4.0" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.3" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:1.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:5.0.4" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.16.1" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest:2.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter:5.6.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.6.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.6.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-params:5.6.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.6.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.6.2" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:3.3.3" level="project" />
+-    <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.10.10" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy-agent:1.10.10" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.6" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-junit-jupiter:3.3.3" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.skyscreamer:jsonassert:1.5.0" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.2.6.RELEASE" level="project" />
+-    <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.7.0" level="project" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_mybatis_spring_boot_starter_2_1_1.xml
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_mybatis_spring_boot_starter_2_1_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_mybatis_spring_boot_starter_2_1_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.springframework.boot:mybatis-spring-boot-starter:2.1.1">
+-    <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"api-commons\" />\r\n        <module name=\"cloud-order8888\" />\r\n        <module name=\"cloud-user9999\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"api-commons\" target=\"1.8\" />\r\n      <module name=\"cloud-order8888\" target=\"1.8\" />\r\n      <module name=\"cloud-user9999\" target=\"1.8\" />\r\n      <module name=\"xiaodingdang\" target=\"1.8\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/compiler.xml	(date 1599477293428)
+@@ -6,14 +6,18 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
++        <module name="cloud-user9999" />
++        <module name="cloud-bookreview8666" />
+         <module name="api-commons" />
++        <module name="cloud-seckill4399" />
+         <module name="cloud-order8888" />
+-        <module name="cloud-user9999" />
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel>
+       <module name="api-commons" target="1.8" />
++      <module name="cloud-bookreview8666" target="1.8" />
+       <module name="cloud-order8888" target="1.8" />
++      <module name="cloud-seckill4399" target="1.8" />
+       <module name="cloud-user9999" target="1.8" />
+       <module name="xiaodingdang" target="1.8" />
+     </bytecodeTargetLevel>
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/api-commons\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/cloud-order8888\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/cloud-user9999\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/encodings.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/encodings.xml	(date 1599477293472)
+@@ -3,7 +3,10 @@
+   <component name="Encoding">
+     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/api-commons" charset="UTF-8" />
+-    <file url="file://$PROJECT_DIR$/cloud-order8888" charset="UTF-8" />
+-    <file url="file://$PROJECT_DIR$/cloud-user9999" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/api-commons/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/cloud-bookreview8666/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/cloud-bookreview8666/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/cloud-seckill4399/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/cloud-seckill4399/src/main/resources" charset="UTF-8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/api-commons/api-commons.iml\" filepath=\"$PROJECT_DIR$/api-commons/api-commons.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/cloud-order8888/cloud-order8888.iml\" filepath=\"$PROJECT_DIR$/cloud-order8888/cloud-order8888.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/cloud-user9999/cloud-user9999.iml\" filepath=\"$PROJECT_DIR$/cloud-user9999/cloud-user9999.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/xiaodingdang.iml\" filepath=\"$PROJECT_DIR$/xiaodingdang.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/modules.xml	(date 1599477293477)
+@@ -3,7 +3,9 @@
+   <component name="ProjectModuleManager">
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/api-commons/api-commons.iml" filepath="$PROJECT_DIR$/api-commons/api-commons.iml" />
++      <module fileurl="file://$PROJECT_DIR$/cloud-bookreview8666/cloud-bookreview8666.iml" filepath="$PROJECT_DIR$/cloud-bookreview8666/cloud-bookreview8666.iml" />
+       <module fileurl="file://$PROJECT_DIR$/cloud-order8888/cloud-order8888.iml" filepath="$PROJECT_DIR$/cloud-order8888/cloud-order8888.iml" />
++      <module fileurl="file://$PROJECT_DIR$/cloud-seckill4399/cloud-seckill4399.iml" filepath="$PROJECT_DIR$/cloud-seckill4399/cloud-seckill4399.iml" />
+       <module fileurl="file://$PROJECT_DIR$/cloud-user9999/cloud-user9999.iml" filepath="$PROJECT_DIR$/cloud-user9999/cloud-user9999.iml" />
+       <module fileurl="file://$PROJECT_DIR$/xiaodingdang.iml" filepath="$PROJECT_DIR$/xiaodingdang.iml" />
+     </modules>
+Index: .idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.baomidou:mybatis-plus-boot-starter:3.3.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_2.xml	(date 1599477293882)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.baomidou:mybatis-plus-boot-starter:3.3.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: ch.qos.logback:logback-core:1.2.3\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml	(date 1599477293527)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: ch.qos.logback:logback-core:1.2.3">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: io.springfox:springfox-core:2.9.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml	(date 1599477295093)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: io.springfox:springfox-core:2.9.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.fasterxml:classmate:1.5.1\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml	(date 1599477294160)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.fasterxml:classmate:1.5.1">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.mybatis:mybatis:3.5.4\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml	(date 1599477296183)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.mybatis:mybatis:3.5.4">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.boot:spring-boot:2.3.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_0_RELEASE.xml	(date 1599477296443)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.boot:spring-boot:2.3.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.projectlombok:lombok:1.16.18\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml	(date 1599477296316)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.projectlombok:lombok:1.16.18">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.baomidou:mybatis-plus-core:3.3.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_2.xml	(date 1599477293983)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.baomidou:mybatis-plus-core:3.3.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.3.2/mybatis-plus-core-3.3.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.boot:spring-boot-starter:2.3.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_0_RELEASE.xml	(date 1599477296476)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.boot:spring-boot-starter:2.3.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-core:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml	(date 1599477296743)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-core:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: io.springfox:springfox-swagger-common:2.9.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml	(date 1599477295188)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: io.springfox:springfox-swagger-common:2.9.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger-common/2.9.2/springfox-swagger-common-2.9.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.yaml:snakeyaml:1.26\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml	(date 1599477296938)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.yaml:snakeyaml:1.26">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: jakarta.annotation:jakarta.annotation-api:1.3.5\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml	(date 1599477295273)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml	(date 1599477294168)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__cn_hutool_hutool_all_5_1_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: cn.hutool:hutool-all:5.1.0\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__cn_hutool_hutool_all_5_1_0.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__cn_hutool_hutool_all_5_1_0.xml	(date 1599477293561)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: cn.hutool:hutool-all:5.1.0">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/cn/hutool/hutool-all/5.1.0/hutool-all-5.1.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.baomidou:mybatis-plus-annotation:3.3.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_2.xml	(date 1599477293639)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.baomidou:mybatis-plus-annotation:3.3.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-beans:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml	(date 1599477296723)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-beans:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_google_guava_guava_20_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.google.guava:guava:20.0\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/google/guava/guava/20.0/guava-20.0.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/google/guava/guava/20.0/guava-20.0-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/google/guava/guava/20.0/guava-20.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_google_guava_guava_20_0.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_google_guava_guava_20_0.xml	(date 1599477294350)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.google.guava:guava:20.0">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/google/guava/guava/20.0/guava-20.0.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/google/guava/guava/20.0/guava-20.0-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/google/guava/guava/20.0/guava-20.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/google/guava/guava/20.0/guava-20.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/google/guava/guava/20.0/guava-20.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.zaxxer:HikariCP:3.4.5\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml	(date 1599477294807)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.zaxxer:HikariCP:3.4.5">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-tx:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml	(date 1599477296849)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-tx:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/5.2.6.RELEASE/spring-tx-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.github.jsqlparser:jsqlparser:3.1\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml	(date 1599477294283)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.github.jsqlparser:jsqlparser:3.1">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/github/jsqlparser/jsqlparser/3.1/jsqlparser-3.1-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.boot:spring-boot-devtools:2.3.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_0_RELEASE.xml	(date 1599477296471)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.boot:spring-boot-devtools:2.3.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-devtools/2.3.0.RELEASE/spring-boot-devtools-2.3.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.boot:spring-boot-starter-logging:2.3.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_0_RELEASE.xml	(date 1599477296513)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.boot:spring-boot-starter-logging:2.3.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.baomidou:mybatis-plus:3.3.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_2.xml	(date 1599477293618)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.baomidou:mybatis-plus:3.3.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus/3.3.2/mybatis-plus-3.3.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: io.swagger:swagger-annotations:1.5.20\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml	(date 1599477295238)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: io.swagger:swagger-annotations:1.5.20">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml	(date 1599477296658)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: io.springfox:springfox-spi:2.9.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml	(date 1599477295138)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: io.springfox:springfox-spi:2.9.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: io.springfox:springfox-swagger-ui:2.9.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml	(date 1599477295220)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: io.springfox:springfox-swagger-ui:2.9.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml	(date 1599477296652)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: io.swagger:swagger-models:1.5.20\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml	(date 1599477295261)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: io.swagger:swagger-models:1.5.20">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.slf4j:jul-to-slf4j:1.7.30\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml	(date 1599477296405)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.slf4j:jul-to-slf4j:1.7.30">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: ch.qos.logback:logback-classic:1.2.3\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml	(date 1599477293505)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: ch.qos.logback:logback-classic:1.2.3">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_0_RELEASE.xml	(date 1599477296465)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.apache.logging.log4j:log4j-to-slf4j:2.13.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml	(date 1599477295672)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.13.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: io.springfox:springfox-swagger2:2.9.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml	(date 1599477295183)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: io.springfox:springfox-swagger2:2.9.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-swagger2/2.9.2/springfox-swagger2-2.9.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.apache.logging.log4j:log4j-api:2.13.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_2.xml	(date 1599477295639)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.apache.logging.log4j:log4j-api:2.13.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-context:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml	(date 1599477296730)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-context:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: io.springfox:springfox-spring-web:2.9.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml	(date 1599477295160)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: io.springfox:springfox-spring-web:2.9.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-aop:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml	(date 1599477296718)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-aop:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.slf4j:slf4j-api:1.7.30\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml	(date 1599477296438)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.slf4j:slf4j-api:1.7.30">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: io.springfox:springfox-schema:2.9.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml	(date 1599477295116)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: io.springfox:springfox-schema:2.9.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-expression:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml	(date 1599477296748)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-expression:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-jdbc:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml	(date 1599477296801)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-jdbc:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_alibaba_druid_1_1_16.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.alibaba:druid:1.1.16\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/alibaba/druid/1.1.16/druid-1.1.16.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/alibaba/druid/1.1.16/druid-1.1.16-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/alibaba/druid/1.1.16/druid-1.1.16-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_alibaba_druid_1_1_16.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_alibaba_druid_1_1_16.xml	(date 1599477293583)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.alibaba:druid:1.1.16">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/alibaba/druid/1.1.16/druid-1.1.16.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.1.16/druid-1.1.16.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/alibaba/druid/1.1.16/druid-1.1.16-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.1.16/druid-1.1.16-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/alibaba/druid/1.1.16/druid-1.1.16-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/alibaba/druid/1.1.16/druid-1.1.16-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.mapstruct:mapstruct:1.2.0.Final\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml	(date 1599477296105)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.mapstruct:mapstruct:1.2.0.Final">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.0\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml	(date 1599477294216)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.0">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.35\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_35.xml	(date 1599477295683)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.35">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-jcl:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml	(date 1599477296796)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-jcl:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.baomidou:mybatis-plus-extension:3.3.2\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_2.xml	(date 1599477294005)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.baomidou:mybatis-plus-extension:3.3.2">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.boot:spring-boot-starter-tomcat:2.3.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_0_RELEASE.xml	(date 1599477296525)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.3.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.boot:spring-boot-starter-web:2.3.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_0_RELEASE.xml	(date 1599477296530)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.boot:spring-boot-starter-web:2.3.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.mybatis:mybatis-spring:2.0.4\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml	(date 1599477296216)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.mybatis:mybatis-spring:2.0.4">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/2.0.4/mybatis-spring-2.0.4-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: net.bytebuddy:byte-buddy:1.10.10\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml	(date 1599477295483)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: net.bytebuddy:byte-buddy:1.10.10">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/net/bytebuddy/byte-buddy/1.10.10/byte-buddy-1.10.10-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.boot:spring-boot-starter-jdbc:2.3.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_0_RELEASE.xml	(date 1599477296503)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.3.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.0.RELEASE/spring-boot-starter-jdbc-2.3.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.0\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml	(date 1599477294222)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.0">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework.boot:spring-boot-starter-json:2.3.0.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_0_RELEASE.xml	(date 1599477296508)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework.boot:spring-boot-starter-json:2.3.0.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-webmvc:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml	(date 1599477296889)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-webmvc:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.0\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml	(date 1599477294227)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.0">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: mysql:mysql-connector-java:8.0.18\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml	(date 1599477295449)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: mysql:mysql-connector-java:8.0.18">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.glassfish:jakarta.el:3.0.3\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml	(date 1599477295844)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.glassfish:jakarta.el:3.0.3">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.springframework:spring-web:5.2.6.RELEASE\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml	(date 1599477296883)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.springframework:spring-web:5.2.6.RELEASE">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.google.protobuf:protobuf-java:3.6.1\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml	(date 1599477294372)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.google.protobuf:protobuf-java:3.6.1">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.fasterxml.jackson.core:jackson-core:2.11.0\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml	(date 1599477294205)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.0">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: com.fasterxml.jackson.core:jackson-databind:2.11.0\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml	(date 1599477294211)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.0">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35.jar!/\" />\r\n    </CLASSES>\r\n    <JAVADOC>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35-javadoc.jar!/\" />\r\n    </JAVADOC>\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml	(date 1599477295678)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+   <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35.jar!/" />
+     </CLASSES>
+     <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35-javadoc.jar!/" />
+     </JAVADOC>
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file

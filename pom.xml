@@ -8,12 +8,9 @@
   <artifactId>xiaodingdang</artifactId>
   <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>api-commons</module>
-<<<<<<< HEAD
-        <module>cloud-coupon7777</module>
-=======
+      <module>api-commons</module>
       <module>cloud-seckill4399</module>
->>>>>>> 900696ab2f245bf0c2f38d00cd242684631eee5a
+      <module>cloud-bookreview8666</module>
     </modules>
     <packaging>pom</packaging>
 

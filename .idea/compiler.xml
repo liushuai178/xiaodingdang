@@ -7,20 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-user9999" />
-        <module name="cloud-order8888" />
-      </profile>
-      <profile name="Annotation profile for Maven" enabled="true">
-        <sourceOutputDir name="../../../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="cloud-coupon7777" />
+        <module name="cloud-bookreview8666" />
         <module name="api-commons" />
+        <module name="cloud-seckill4399" />
+        <module name="cloud-order8888" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-commons" target="1.8" />
-      <module name="cloud-coupon7777" target="1.8" />
+      <module name="cloud-bookreview8666" target="1.8" />
       <module name="cloud-order8888" target="1.8" />
+      <module name="cloud-seckill4399" target="1.8" />
       <module name="cloud-user9999" target="1.8" />
       <module name="xiaodingdang" target="1.8" />
     </bytecodeTargetLevel>

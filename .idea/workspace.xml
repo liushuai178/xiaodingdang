@@ -3,6 +3,62 @@
   <component name="ChangeListManager">
     <list default="true" id="3088ab7d-68f0-4e70-8ac8-38e7a2a0515c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/Coupon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/CouponRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/CouponStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/CouponType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/Favorite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/ShopCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/Store.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-commons/target/classes/com/xld/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-coupon7777/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/src/main/java/com/xiaodingdang/controller/CouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-coupon7777/src/main/java/com/xiaodingdang/controller/CouponController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-coupon7777/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/target/classes/com/xiaodingdang/CouponMain7777.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/target/classes/com/xiaodingdang/controller/CouponController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/target/classes/com/xiaodingdang/dao/CouponDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/target/classes/com/xiaodingdang/service/CouponServicce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/target/classes/com/xiaodingdang/service/impl/CouonServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-coupon7777/target/classes/mapper/CouponDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/java/com/xdd/SeckillServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/java/com/xdd/controller/SeckillController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/java/com/xdd/dao/ActivityDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/java/com/xdd/dao/CategoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/java/com/xdd/dao/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/java/com/xdd/dao/StoreDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/java/com/xdd/service/SeckillService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/java/com/xdd/service/impl/SeckillServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/resources/mapper/ActivityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/resources/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/src/main/resources/mapper/StoreMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/com/xdd/SeckillServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/com/xdd/controller/SeckillController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/com/xdd/dao/ActivityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/com/xdd/dao/CategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/com/xdd/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/com/xdd/dao/StoreDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/com/xdd/service/SeckillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/com/xdd/service/impl/SeckillServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/mapper/ActivityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/mapper/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/classes/mapper/StoreMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/cloud-seckill4399-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seckill4399/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-coupon7777/src/main/java/com/xiaodingdang/controller/CouponController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="342">
+              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -391,7 +447,7 @@
       <updated>1599380938195</updated>
       <workItem from="1599380940771" duration="3703000" />
       <workItem from="1599384719937" duration="16134000" />
-      <workItem from="1599453972382" duration="15797000" />
+      <workItem from="1599453972382" duration="14976000" />
     </task>
     <task id="LOCAL-00001" summary="coupon 优惠券的增删改查">
       <created>1599462504707</created>
@@ -407,23 +463,17 @@
       <option name="project" value="LOCAL" />
       <updated>1599462812482</updated>
     </task>
-    <task id="LOCAL-00003" summary="增加缓存">
-      <created>1599475632227</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1599475632227</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35634000" />
+    <option name="totallyTimeSpent" value="34813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -433,7 +483,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.078688525" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.078688525" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4557377" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,8 +541,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="coupon 优惠券的增删改查" />
     <MESSAGE value="Merge branch 'master' of https://github.com/2939liu/xiaodingdang&#10;&#10;# Conflicts:&#10;#&#9;cloud-coupon7777/pom.xml&#10;#&#9;cloud-seckill4399/pom.xml&#10;#&#9;cloud-seckill4399/src/main/java/com/xdd/SeckillServiceApplication.java&#10;#&#9;cloud-seckill4399/src/main/resources/application.yml&#10;#&#9;cloud-seckill4399/target/classes/application.yml&#10;#&#9;cloud-user9999/pom.xml&#10;#&#9;pom.xml" />
-    <MESSAGE value="增加缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/2939liu/xiaodingdang&#10;&#10;# Conflicts:&#10;#&#9;cloud-coupon7777/pom.xml&#10;#&#9;cloud-seckill4399/pom.xml&#10;#&#9;cloud-seckill4399/src/main/java/com/xdd/SeckillServiceApplication.java&#10;#&#9;cloud-seckill4399/src/main/resources/application.yml&#10;#&#9;cloud-seckill4399/target/classes/application.yml&#10;#&#9;cloud-user9999/pom.xml&#10;#&#9;pom.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-user9999/pom.xml" />
@@ -732,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-coupon7777/src/main/java/com/xiaodingdang/controller/CouponController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="342">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

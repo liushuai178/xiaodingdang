@@ -1,0 +1,132 @@
+Index: .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.1.1">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.1.1/mybatis-spring-boot-autoconfigure-2.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.mybatis:mybatis:3.5.3">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.3/mybatis-3.5.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.mybatis:mybatis-spring:2.0.3">
+-    <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.3/mybatis-spring-2.0.3-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_springframework_boot_mybatis_spring_boot_starter_2_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_springframework_boot_mybatis_spring_boot_starter_2_1_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__org_springframework_boot_mybatis_spring_boot_starter_2_1_1.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: org.springframework.boot:mybatis-spring-boot-starter:2.1.1">
+-    <CLASSES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/mybatis-spring-boot-starter/2.1.1/mybatis-spring-boot-starter-2.1.1-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_2.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
+@@ -1,13 +0,0 @@
+-<component name="libraryTable">
+-  <library name="Maven: com.baomidou:mybatis-plus-generator:3.3.2">
+-    <CLASSES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-generator/3.3.2/mybatis-plus-generator-3.3.2.jar!/" />
+-    </CLASSES>
+-    <JAVADOC>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-generator/3.3.2/mybatis-plus-generator-3.3.2-javadoc.jar!/" />
+-    </JAVADOC>
+-    <SOURCES>
+-      <root url="jar://$USER_HOME$/m2/repository/com/baomidou/mybatis-plus-generator/3.3.2/mybatis-plus-generator-3.3.2-sources.jar!/" />
+-    </SOURCES>
+-  </library>
+-</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/classes\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 5d84c010dd889e575f6401b983c270da9be455f6)
++++ .idea/misc.xml	(date 1599472798271)
+@@ -6,6 +6,12 @@
+         <option value="$PROJECT_DIR$/pom.xml" />
+       </list>
+     </option>
++    <option name="ignoredFiles">
++      <set>
++        <option value="$PROJECT_DIR$/cloud-bookreview8666/pom.xml" />
++        <option value="$PROJECT_DIR$/cloud-seckill4399/pom.xml" />
++      </set>
++    </option>
+   </component>
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/classes" />

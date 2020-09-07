@@ -35,28 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="691" selection-start-line="691" selection-end-line="691" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-commons/src/main/java/com/xld/pojo/Coupon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="209">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -144,41 +126,6 @@
             <path>
               <item name="xiaodingdang2" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaodingdang2" type="462c0819:PsiDirectoryNode" />
-              <item name="api-commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaodingdang2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaodingdang2" type="462c0819:PsiDirectoryNode" />
-              <item name="api-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaodingdang2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaodingdang2" type="462c0819:PsiDirectoryNode" />
-              <item name="api-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaodingdang2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaodingdang2" type="462c0819:PsiDirectoryNode" />
-              <item name="api-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaodingdang2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaodingdang2" type="462c0819:PsiDirectoryNode" />
-              <item name="api-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaodingdang2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaodingdang2" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-coupon7777" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,6 +133,13 @@
               <item name="xiaodingdang2" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-coupon7777" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaodingdang2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaodingdang2" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-coupon7777" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,7 +158,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="G:/桌面/petshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-coupon7777/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\ideaWorkspaces\project\xiaodingdang2\cloud-coupon7777\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -276,14 +235,22 @@
       <option name="project" value="LOCAL" />
       <updated>1599462812482</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新">
+      <created>1599479582176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599479582176</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35023000" />
+    <option name="totallyTimeSpent" value="35518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -353,7 +320,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="coupon 优惠券的增删改查" />
     <MESSAGE value="Merge branch 'master' of https://github.com/2939liu/xiaodingdang&#10;&#10;# Conflicts:&#10;#&#9;cloud-coupon7777/pom.xml&#10;#&#9;cloud-seckill4399/pom.xml&#10;#&#9;cloud-seckill4399/src/main/java/com/xdd/SeckillServiceApplication.java&#10;#&#9;cloud-seckill4399/src/main/resources/application.yml&#10;#&#9;cloud-seckill4399/target/classes/application.yml&#10;#&#9;cloud-user9999/pom.xml&#10;#&#9;pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/2939liu/xiaodingdang&#10;&#10;# Conflicts:&#10;#&#9;cloud-coupon7777/pom.xml&#10;#&#9;cloud-seckill4399/pom.xml&#10;#&#9;cloud-seckill4399/src/main/java/com/xdd/SeckillServiceApplication.java&#10;#&#9;cloud-seckill4399/src/main/resources/application.yml&#10;#&#9;cloud-seckill4399/target/classes/application.yml&#10;#&#9;cloud-user9999/pom.xml&#10;#&#9;pom.xml" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-user9999/pom.xml" />
@@ -455,13 +423,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-coupon7777/src/main/java/com/xiaodingdang/service/CouponServicce.java" />
     <entry file="file://$PROJECT_DIR$/cloud-coupon7777/src/main/java/com/xiaodingdang/service/impl/CouonServiceImpl.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/2.3.0.RELEASE/spring-data-redis-2.3.0.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -509,20 +470,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-coupon7777/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/api-commons/src/main/java/com/xld/pojo/Coupon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-coupon7777/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/cloud-coupon7777/src/main/java/com/xiaodingdang/CouponMain7777.java" />
     <entry file="file://$PROJECT_DIR$/cloud-coupon7777/src/main/java/com/xiaodingdang/controller/CouponController.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="691" selection-start-line="691" selection-end-line="691" />
+        <state relative-caret-position="162">
+          <caret line="696" column="40" lean-forward="true" selection-start-line="696" selection-start-column="40" selection-end-line="696" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-coupon7777/src/src/main/java/com/xiaodingdang/dao/CouponDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-commons/src/main/java/com/xld/pojo/Coupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>

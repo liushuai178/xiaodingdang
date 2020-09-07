@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdd.dao.ArticleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xld.pojo.Article">
+        <id column="article_id" property="articleId" />
+        <result column="article_head" property="articleHead" />
+        <result column="article_content" property="articleContent" />
+        <result column="user_id" property="userId" />
+        <result column="article_time" property="articleTime" />
+    </resultMap>
+
+</mapper>

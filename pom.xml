@@ -9,7 +9,11 @@
   <version>1.0-SNAPSHOT</version>
     <modules>
         <module>api-commons</module>
+<<<<<<< HEAD
         <module>cloud-coupon7777</module>
+=======
+      <module>cloud-seckill4399</module>
+>>>>>>> 900696ab2f245bf0c2f38d00cd242684631eee5a
     </modules>
     <packaging>pom</packaging>
 
@@ -68,6 +72,7 @@
       <dependency>
         <groupId>org.freemarker</groupId>
         <artifactId>freemarker</artifactId>
+        <version>2.3.30</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -87,7 +92,7 @@
         <artifactId>mybatis-plus-generator</artifactId>
         <version>3.3.2</version>
         <type>pom</type>
-        <scope>import</scope>
+<!--        <scope>import</scope>-->
       </dependency>
 
       <dependency>
@@ -163,5 +168,20 @@
       </plugin>
     </plugins>
   </build>
+
+  <!--第三方maven私服-->
+  <repositories>
+    <repository>
+      <id>nexus-aliyun</id>
+      <name>Nexus aliyun</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 
 </project>

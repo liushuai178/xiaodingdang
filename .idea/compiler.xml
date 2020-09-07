@@ -7,9 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-user9999" />
+        <module name="cloud-order8888" />
+      </profile>
+      <profile name="Annotation profile for Maven" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="cloud-coupon7777" />
         <module name="api-commons" />
-        <module name="cloud-order8888" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -15,7 +15,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author liushuai
- * @since 2020-09-04
+ * @since 2020-09-06
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -42,6 +42,9 @@ public class Goods implements Serializable {
     @ApiModelProperty(value = "商品类别id")
     @TableField("goods_categoryId")
     private Integer goodsCategoryid;
+
+    @ApiModelProperty(value = "商品参加的活动类型")
+    private Integer activityId;
 
     @ApiModelProperty(value = "所属店铺的id")
     private Integer storeId;

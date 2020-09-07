@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdd.dao.GoodsDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xld.pojo.Goods">
+        <id column="id" property="id" />
+        <result column="goods_name" property="goodsName" />
+        <result column="goods_price" property="goodsPrice" />
+        <result column="goods_number" property="goodsNumber" />
+        <result column="goods_info" property="goodsInfo" />
+        <result column="goods_categoryId" property="goodsCategoryid" />
+        <result column="activity_id" property="activityId" />
+        <result column="store_id" property="storeId" />
+        <result column="goods_activity_time" property="goodsActivityTime"/>
+
+        <association property="activityName" javaType="com.xld.pojo.Activity">
+            <id column="activity_id" property="activityId" />
+            <result column="activity_name" property="activityName" />
+        </association>
+
+        <association property="categoryName" javaType="com.xld.pojo.Category">
+            <id column="category_id" property="categoryId"/>
+            <result column="category_name" property="categoryName"/>
+        </association>
+
+        <association property="storeName" javaType="com.xld.pojo.Store">
+            <id column="store_id" property="storeId"/>
+            <result column="store_name" property="storeName"/>
+            <result column="store_address" property="storeAddress"/>
+        </association>
+
+    </resultMap>
+
+
+    <!--查询全部秒杀商品-->
+    <select id="findAll" resultMap="BaseResultMap">
+        select id,goods_name,goods_price,goods_number,goods_info,
+        c.category_name,a.activity_name,s.store_name,goods_activity_time
+        from goods g
+        inner join category c
+        on g.goods_categoryId = c.category_id
+        inner join activity a
+        on g.activity_id = a.activity_id
+        inner join store s
+        on g.store_id = s.store_id
+        where g.activity_id = 1
+    </select>
+
+    <!--查询单个秒杀商品-->
+
+    <select id="findById" resultMap="BaseResultMap">
+        select g.id,goods_name,goods_price,goods_number,goods_info,
+        c.category_name,a.activity_name,s.store_name,goods_activity_time
+        from goods g
+        inner join category c
+        on g.goods_categoryId = c.category_id
+        inner join activity a
+        on g.activity_id = a.activity_id
+        inner join store s
+        on g.store_id = s.store_id
+        where g.activity_id = 1 and g.id = #{id}
+    </select>
+
+</mapper>

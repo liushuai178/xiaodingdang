@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdd.dao.CollectMapper">
+<resultMap id="GoodsMap" type="com.xld.pojo.Goods">
+    <id column="id" property="id"></id>
+    <result column="goods_name" property="goodsName"></result>
+    <result column="goods_price" property="goodsPrice"></result>
+    <result column="goods_number" property="goodsNumber"></result>
+    <result column="goods_info" property="goodsInfo"></result>
+</resultMap>
+<resultMap id="StoreMap" type="com.xld.pojo.Store">
+    <id column="store_id" property="storeId"></id>
+    <result column="store_name" property="storeName"></result>
+    <result column="store_address" property="storeAddress"></result>
+</resultMap>
+
+
+
+
+    <select id="findAllGoods" parameterType="int" resultMap="GoodsMap">
+select g.* from goods g inner join collect c
+on g.id=c.goods_id where c.user_id=#{userId} and collect_goods=1
+</select>
+<insert id="addGoods" parameterType="com.xld.pojo.Collect">
+    insert into collect (collect_id,user_id,goods_id,store_id,collect_goods,
+    collect_store,goodsRecord) values (#{collectId},#{userId},#{goodsId},#{storeId},
+    #{collectGoods},#{collectStore},#{goodsRecord})
+</insert>
+    <update id="updateGoods" parameterType="com.xld.pojo.Collect">
+        update collect set collect_goods = 0 where user_id=#{userId} and goods_id=#{goodsId}
+    </update>
+
+    <insert id="addStore" parameterType="com.xld.pojo.Collect">
+          insert into collect (collect_id,user_id,goods_id,store_id,collect_goods,
+    collect_store,goodsRecord) values (#{collectId},#{userId},#{goodsId},#{storeId},
+    #{collectGoods},#{collectStore},#{goodsRecord})
+    </insert>
+
+    <select id="findAllStore" parameterType="int" resultMap="StoreMap">
+        select s.* from store s inner join collect c
+        on s.store_id=c.store_id
+        where user_id=#{userId}
+        and collect_store=1
+    </select>
+    <update id="updateStore" parameterType="com.xld.pojo.Collect">
+        update collect set collect_store=0 where user_id=#{userId} and store_id=#{storeId}
+    </update>
+
+    <select id="findAllRecord" parameterType="int" resultMap="GoodsMap">
+    select g.* from goods g inner join collect c
+on g.id=c.goods_id where c.user_id=#{userId} and goodsRecord=1
+    </select>
+    <select id="findById" parameterType="com.xld.pojo.Collect" resultType="com.xld.pojo.Collect">
+        select * from collect where user_id=#{userId} and goods_id=#{goodsId}
+    </select>
+    <update id="updateRecord" parameterType="com.xld.pojo.Collect">
+        update collect set goodsRecord = 1 where user_id=#{userId} and goods_id=#{goodsId}
+    </update>
+    <update id="deleteRecord" parameterType="com.xld.pojo.Collect">
+        update collect set goodsRecord = 0 where user_id=#{userId} and goods_id=#{goodsId}
+    </update>
+</mapper>

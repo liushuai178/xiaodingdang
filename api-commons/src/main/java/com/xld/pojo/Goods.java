@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -51,6 +52,7 @@ public class Goods implements Serializable {
     @ApiModelProperty(value = "所属店铺的id")
     private Integer storeId;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")//格式化时间
     @ApiModelProperty(value = "商品活动开始时间")
     private Date goodsActivityTime;
 
@@ -62,6 +64,8 @@ public class Goods implements Serializable {
 
     @ApiModelProperty(value = "商品所属店铺")
     private Store storeName;
+
+
 
 
 }

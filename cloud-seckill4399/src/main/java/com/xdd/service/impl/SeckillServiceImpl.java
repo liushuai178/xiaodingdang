@@ -15,8 +15,8 @@ public class SeckillServiceImpl implements SeckillService {
     private GoodsDao goodsDao;
 
     @Override
-    public List<Goods> findAll() {
-        return goodsDao.findAll();
+    public List<Goods> findAll(String time) {
+        return goodsDao.findAll(time);
     }
 
     @Override

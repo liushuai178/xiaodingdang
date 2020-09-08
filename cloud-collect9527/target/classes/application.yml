@@ -1,0 +1,19 @@
+server:
+  port: 9527
+
+#mysql配置
+spring:
+  datasource:
+    url: jdbc:mysql://39.99.155.151:3306/xiaodingdang?serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#mybatis配置
+mybatis:
+  # xml 映射文件的路径
+  mapper-locations: classpath:mapper/*.xml
+  #控制台打印日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

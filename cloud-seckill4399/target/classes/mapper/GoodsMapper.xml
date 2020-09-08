@@ -12,6 +12,7 @@
         <result column="goods_categoryId" property="goodsCategoryid" />
         <result column="activity_id" property="activityId" />
         <result column="store_id" property="storeId" />
+        <result column="goods_activity_time" property="goodsActivityTime"/>
 
         <association property="activityName" javaType="com.xld.pojo.Activity">
             <id column="activity_id" property="activityId" />
@@ -35,7 +36,7 @@
     <!--查询全部秒杀商品-->
     <select id="findAll" resultMap="BaseResultMap">
         select id,goods_name,goods_price,goods_number,goods_info,
-        c.category_name,a.activity_name,s.store_name
+        c.category_name,a.activity_name,s.store_name,goods_activity_time
         from goods g
         inner join category c
         on g.goods_categoryId = c.category_id
@@ -43,14 +44,14 @@
         on g.activity_id = a.activity_id
         inner join store s
         on g.store_id = s.store_id
-        where g.activity_id = 1
+        where g.activity_id = 1 and g.goods_activity_time like "%"#{time}"%"
     </select>
 
     <!--查询单个秒杀商品-->
 
     <select id="findById" resultMap="BaseResultMap">
         select g.id,goods_name,goods_price,goods_number,goods_info,
-        c.category_name,a.activity_name,s.store_name
+        c.category_name,a.activity_name,s.store_name,goods_activity_time
         from goods g
         inner join category c
         on g.goods_categoryId = c.category_id

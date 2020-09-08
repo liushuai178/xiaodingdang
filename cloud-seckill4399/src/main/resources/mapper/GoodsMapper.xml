@@ -44,7 +44,7 @@
         on g.activity_id = a.activity_id
         inner join store s
         on g.store_id = s.store_id
-        where g.activity_id = 1
+        where g.activity_id = 1 and g.goods_activity_time like "%"#{time}"%"
     </select>
 
     <!--查询单个秒杀商品-->

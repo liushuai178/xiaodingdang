@@ -7,6 +7,6 @@ import java.util.List;
 
 @Repository
 public interface GoodsDao {
-    List<Goods> findAll();
+    List<Goods> findAll(String time);
     Goods findById(Integer id);
 }

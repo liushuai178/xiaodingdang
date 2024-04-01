@@ -10,7 +10,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
-#mybatis配置
+#mybatis配置11111111
 mybatis:
   # xml 映射文件的路径
   mapper-locations: classpath:mapper/*.xml
